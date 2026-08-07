@@ -110,35 +110,35 @@
         // စာအုပ်စာရင်း အပြည့်အစုံ 
         const BOOKS = [
             { key: "KS_BT_01", name: "ကစ္စည်းဘာသာဋီကာ (ပတွဲ)", index_key: "ကစ္စည်း-ဘာသာဋီကာ၊ ၁", file: "KS_BT_01.pdf", page_offset: 7 }, 
-            { key: "KS_BT_02", name: "ကစ္စည်းဘာသာဋီကာ (ဒုတွဲ)", index_key: "ကစ္စည်း-ဘာသာဋီကာ၊ ၂", file: "KS_BT_02.pdf", page_offset: 1 },
+            { key: "KS_BT_02", name: "ကစ္စည်းဘာသာဋီကာ (ဒုတွဲ)", index_key: "ကစ္စည်း-ဘာသာဋီကာ၊ ၂", file: "KS_BT_02.pdf", page_offset: 0 },
             { key: "RPSD_BT_01", name: "ရူပသိဒ္ဓိဘာသာဋီကာ (ပတွဲ)", index_key: "ရူပသိဒ္ဓိ-ဘာသာဋီကာ၊ ၁", file: "RPSD_BT_01.pdf", page_offset: 1 },
             { key: "RPSD_BT_02", name: "ရူပသိဒ္ဓိဘာသာဋီကာ (ဒုတွဲ)", index_key: "ရူပသိဒ္ဓိ-ဘာသာဋီကာ၊ ၂", file: "RPSD_BT_02.pdf", page_offset: 20 },
             { key: "BDCT_BT", name: "ဘေဒစိန္တာဋီကာ", index_key: "ဘေဒစိန္တာ-ဘာသာဋီကာ", file: "BDCT_BT.pdf", page_offset: 12 },
             { key: "KCYN_BT", name: "ကစ္စာယန ဘာသာဋီကာ", index_key: "ကစ္စာယနသာရ-ဘာသာဋီကာ", file: "KCYN_BT.pdf", page_offset: 1 },
-            { key: "ATAP", name: "အဋ္ဌကထာအခြေပြု", index_key: "အဋ္ဌကထာ-အခြေပြု", file: "ATAP.pdf", page_offset: 1 },
-            { key: "SGH_BT", name: "အခြေပြုသဂြိုလ်", index_key: "သင်္ဂြိုဟ်-ဘာသာဋီကာ", file: "SGH_BT.pdf", page_offset: 1 },
+            { key: "ATAP", name: "အဋ္ဌကထာအခြေပြု", index_key: "အဋ္ဌကထာ-အခြေပြု", file: "ATAP.pdf", page_offset: 28 },
+            { key: "SGH_BT", name: "အခြေပြုသဂြိုလ်", index_key: "သင်္ဂြိုဟ်-ဘာသာဋီကာ", file: "SGH_BT.pdf", page_offset: 16 },
             { key: "TKK_PN", name: "ဋီကာကျော် နိဿယ", index_key: "ဋီကာကျော်-နိဿယ", file: "TKK_PN.pdf", page_offset: 10 },
-            { key: "VT_TCS_BT", name: "ဝီထိနှင့် သုံးချက်စုဘာသာဋီကာ", index_key: "ဝီထိနှင့် သုံးချက်စု-ဘာသာဋီကာ", file: "VT_TCS_BT.pdf", page_offset: 1 },
-            { key: "SI_BT_01", name: "သီလက္ခန်ဘာသာဋီကာ (ပ တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၁", file: "SI_BT_01.pdf", page_offset: 1 },
-            { key: "SI_BT_02", name: "သီလက္ခန်ဘာသာဋီကာ (ဒု တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၂", file: "SI_BT_02.pdf", page_offset: 1 },
+            { key: "VT_TCS_BT", name: "ဝီထိနှင့် သုံးချက်စုဘာသာဋီကာ", index_key: "ဝီထိနှင့် သုံးချက်စု-ဘာသာဋီကာ", file: "VT_TCS_BT.pdf", page_offset: 8 },
+            { key: "SI_BT_01", name: "သီလက္ခန်ဘာသာဋီကာ (ပ တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၁", file: "SI_BT_01.pdf", page_offset: 13 },
+            { key: "SI_BT_02", name: "သီလက္ခန်ဘာသာဋီကာ (ဒု တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၂", file: "SI_BT_02.pdf", page_offset: 13 },
             { key: "SI_BT_03", name: "သီလက္ခန်ဘာသာဋီကာ (တ တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၃", file: "SI_BT_03.pdf", page_offset: 1 },
-            { key: "SI_BT_04", name: "သီလက္ခန်ဘာသာဋီကာ (စ တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၄", file: "SI_BT_04.pdf", page_offset: 1 },
+            { key: "SI_BT_04", name: "သီလက္ခန်ဘာသာဋီကာ (စ တွဲ)", index_key: "သီလက္ခန်-ဘာသာဋီကာ၊ ၄", file: "SI_BT_04.pdf", page_offset: 7 },
             { key: "S_MV_AT_BT_01", name: "သုတ်မဟာဝါဘာသာဋီကာ (ပ တွဲ)", index_key: "သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၁", file: "S_MV_AT_BT_01.pdf", page_offset: 21 },
-            { key: "S_MV_AT_BT_02", name: "သုတ်မဟာဝါဘာသာဋီကာ (ဒု တွဲ)", index_key: "သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၂", file: "S_MV_AT_BT_02.pdf", page_offset: 1 },
-            { key: "S_MV_AT_BT_03", name: "သုတ်မဟာဝါဘာသာဋီကာ (တ တွဲ)", index_key: "သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၃", file: "S_MV_AT_BT_03.pdf", page_offset: 1 },
+            { key: "S_MV_AT_BT_02", name: "သုတ်မဟာဝါဘာသာဋီကာ (ဒု တွဲ)", index_key: "သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၂", file: "S_MV_AT_BT_02.pdf", page_offset: 9 },
+            { key: "S_MV_AT_BT_03", name: "သုတ်မဟာဝါဘာသာဋီကာ (တ တွဲ)", index_key: "သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၃", file: "S_MV_AT_BT_03.pdf", page_offset: 28 },
             { key: "ATSLN_BT_01", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (ပ တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၁", file: "ATSLN_BT_01.pdf", page_offset: 1 },
-            { key: "ATSLN_BT_02", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (ဒု တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၂", file: "ATSLN_BT_02.pdf", page_offset: 1 },
-            { key: "ATSLN_BT_03", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (တ တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၃", file: "ATSLN_BT_03.pdf", page_offset: 1 },
+            { key: "ATSLN_BT_02", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (ဒု တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၂", file: "ATSLN_BT_02.pdf", page_offset: 0 },
+            { key: "ATSLN_BT_03", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (တ တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၃", file: "ATSLN_BT_03.pdf", page_offset: 10 },
             { key: "ATSLN_BT_04", name: "အဋ္ဌသာလိနီ ဘာသာဋီကာ (စ တွဲ)", index_key: "အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၄", file: "ATSLN_BT_04.pdf", page_offset: 10 },
             { key: "DTKT_AT_BT", name: "ဓာတုကထာ/ပုဂ္ဂလပညတ္တိအဋ္ဌကထာဘာသာဋီကာ", index_key: "ဓာတုကထာ-ဘာသာဋီကာ", file: "DTKT_AT_BT.pdf", page_offset: 1 },
             { key: "KTVT_AT_BT_01", name: "ကထာဝတ္ထုအဋ္ဌကထာ ဘာသာဋီကာ (ပ တွဲ)", index_key: "ကထာဝတ္ထုအဋ္ဌကထာ-ဘာသာဋီကာ၊ ၁", file: "KTVT_AT_BT_01.pdf", page_offset: 70 },
             { key: "KTVT_AT_BT_02", name: "ကထာဝတ္ထုအဋ္ဌကထာ ဘာသာဋီကာ (ဒု တွဲ)", index_key: "ကထာဝတ္ထုအဋ္ဌကထာ-ဘာသာဋီကာ၊ ၂", file: "KTVT_AT_BT_02.pdf", page_offset: 64 },
-            { key: "PHT_AT_BT", name: "ပဋ္ဌာနအဋ္ဌကထာဘာသာဋီကာ", index_key: "ပဋ္ဌာနအဋ္ဌကထာ-ဘာသာဋီကာ", file: "PHT_AT_BT.pdf", page_offset: 1 },
+            { key: "PHT_AT_BT", name: "ပဋ္ဌာနအဋ္ဌကထာဘာသာဋီကာ", index_key: "ပဋ္ဌာနအဋ္ဌကထာ-ဘာသာဋီကာ", file: "PHT_AT_BT.pdf", page_offset: 88 },
             { key: "SMH_AT_BT_01", name: "သမ္မောဟဝိနောဒနီ ဘာသာဋီကာ (ပ တွဲ)", index_key: "သမ္မောဟဝိနောဒနီ-ဘာသာဋီကာ၊ ၁", file: "SMH_AT_BT_01.pdf", page_offset: 26 },
             { key: "SMH_AT_BT_02", name: "သမ္မောဟဝိနောဒနီ ဘာသာဋီကာ (ဒု တွဲ)", index_key: "သမ္မောဟဝိနောဒနီ-ဘာသာဋီကာ၊ ၂", file: "SMH_AT_BT_02.pdf", page_offset: 14 },
             { key: "SMH_AT_BT_03", name: "သမ္မောဟဝိနောဒနီ ဘာသာဋီကာ (တ တွဲ)", index_key: "သမ္မောဟဝိနောဒနီ-ဘာသာဋီကာ၊ ၃", file: "SMH_AT_BT_03.pdf", page_offset: 15 },
-            { key: "YMK_AT_BT", name: "ယမကအဋ္ဌကထာဘာသာဋီကာ", index_key: "ယမကအဋ္ဌကထာ-ဘာသာဋီကာ", file: "YMK_AT_BT.pdf", page_offset: 1 },
-            { key: "PJ_BT_01", name: "ပါရာဇိကဏ်ဘာသာဋီကာ (ပ တွဲ)", index_key: "ပါရာဇိကဏ်-ဘာသာဋီကာ၊ ၁", file: "PJ_BT_01.pdf", page_offset: 1 },
+            { key: "YMK_AT_BT", name: "ယမကအဋ္ဌကထာဘာသာဋီကာ", index_key: "ယမကအဋ္ဌကထာ-ဘာသာဋီကာ", file: "YMK_AT_BT.pdf", page_offset: 9 },
+            { key: "PJ_BT_01", name: "ပါရာဇိကဏ်ဘာသာဋီကာ (ပ တွဲ)", index_key: "ပါရာဇိကဏ်-ဘာသာဋီကာ၊ ၁", file: "PJ_BT_01.pdf", page_offset: 16 },
             { key: "PJ_BT_02", name: "ပါရာဇိကဏ်ဘာသာဋီကာ (ဒု တွဲ)", index_key: "ပါရာဇိကဏ်-ဘာသာဋီကာ၊ ၂", file: "PJ_BT_02.pdf", page_offset: 1 },
             { key: "PJ_BT_03", name: "ပါရာဇိကဏ်ဘာသာဋီကာ (တ တွဲ)", index_key: "ပါရာဇိကဏ်-ဘာသာဋီကာ၊ ၃", file: "PJ_BT_03.pdf", page_offset: 1 },
             { key: "PJ_BT_04", name: "ပါရာဇိကဏ်ဘာသာဋီကာ (စ တွဲ)", index_key: "ပါရာဇိကဏ်-ဘာသာဋီကာ၊ ၄", file: "PJ_BT_04.pdf", page_offset: 1 },
@@ -146,13 +146,13 @@
             { key: "PC_BT_02", name: "ပါစိတ်ဘာသာဋီကာ (ဒု တွဲ)", index_key: "ပါစိတ်-ဘာသာဋီကာ၊ ၂", file: "PC_BT_02.pdf", page_offset: 1 },
             { key: "MV_BT_01", name: "မဟာဝါဘာသာဋီကာ (ပ တွဲ)", index_key: "မဟာဝါ-ဘာသာဋီကာ၊ ၁", file: "MV_BT_01.pdf", page_offset: 1 },
             { key: "MV_BT_02", name: "မဟာဝါဘာသာဋီကာ (ဒု တွဲ)", index_key: "မဟာဝါ-ဘာသာဋီကာ၊ ၂", file: "MV_BT_02.pdf", page_offset: 1 },
-            { key: "CV_AT_BT", name: "စူဠဝဂ္ဂဘာသာဋီကာ", index_key: "စူဠဝဂ္ဂ-ဘာသာဋီကာ", file: "CV_AT_BT.pdf", page_offset: 1 },
+            { key: "CV_AT_BT", name: "စူဠဝဂ္ဂဘာသာဋီကာ", index_key: "စူဠဝဂ္ဂ-ဘာသာဋီကာ", file: "CV_AT_BT.pdf", page_offset: 0 },
             { key: "PV_BT", name: "ပရိဝါဘာသာဋီကာ", index_key: "ပရိဝါရ-ဘာသာဋီကာ", file: "PV_BT.pdf", page_offset: 1 },
-            { key: "KK_AT_BT_01", name: "ကင်္ခါဘာသာဋီကာ (ပတွဲ)", index_key: "ကင်္ခါဝိတရဏီ-ဘာသာဋီကာ၊ ၁", file: "KK_AT_BT_01.pdf", page_offset: 1 },
+            { key: "KK_AT_BT_01", name: "ကင်္ခါဘာသာဋီကာ (ပတွဲ)", index_key: "ကင်္ခါဝိတရဏီ-ဘာသာဋီကာ၊ ၁", file: "KK_AT_BT_01.pdf", page_offset: 0 },
             { key: "KK_AT_BT_02", name: "ကင်္ခါဘာသာဋီကာ (ဒု တွဲ)", index_key: "ကင်္ခါဝိတရဏီ-ဘာသာဋီကာ၊ ၂", file: "KK_AT_BT_02.pdf", page_offset: 1 },
             { key: "KHUDDA_BT", name: "ခုဒ္ဒသိက္ခာ-ဘာသာဋီကာ", index_key: "ခုဒ္ဒသိက္ခာ-ဘာသာဋီကာ", file: "KSK_BT.pdf", page_offset: 1 },
             { key: "PATMOK_BT", name: "ပါတိမောက်-ဘာသာဋီကာ", index_key: "ပါတိမောက်-ဘာသာဋီကာ", file: "PTM_BT.pdf", page_offset: 1 },
-            { key: "THOUT_PATH", name: "သုတ်ပါထေယျ-ဘာသာဋီကာ", index_key: "သုတ်ပါထေယျ-ဘာသာဋီကာ၊ ၁", file: "S_PTY_AT_BT.pdf", page_offset: 1 },
+            { key: "THOUT_PATH", name: "သုတ်ပါထေယျ-ဘာသာဋီကာ", index_key: "သုတ်ပါထေယျ-ဘာသာဋီကာ၊ ၁", file: "S_PTY_AT_BT.pdf", page_offset: 8 },
                         
         ];
 
@@ -14181,7 +14181,7 @@
 သာဝဇ္ဇာ	*သီလက္ခန်-ဘာသာဋီကာ၊ ၄ ၁၁၇
 သာဝဇ္ဇော , သာနုဝဇ္ဇော	*ပရိဝါရ-ဘာသာဋီကာ ၄၉၆
 သာဝတ္ထိယံ ဝိဟရတိ- အနက် ၂-မျိုး	*ကစ္စည်း-ဘာသာဋီကာ၊ ၁ ၃၆၄
-သာဝတ္ထိံ ဂန0x202ာ စရတိ- မှတ်ဖွယ်	*ဘေဒစိန္တာ-ဘာသာဋီကာ ၃၅၇
+သာဝတ္ထိံ ဂန္တွာ စရတိ- မှတ်ဖွယ်	*ဘေဒစိန္တာ-ဘာသာဋီကာ ၃၅၇
 သာဝဓာရဏဟေတုပဋိက္ခေပနိဒ္ဒေသော	*အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၃ ၃၇၉
 သာဝသေသံ	*ကင်္ခါဝိတရဏီ-ဘာသာဋီကာ၊ ၂ ၃၇
 သာဝသေသာပတ္တိ , အနဝသေသာပတ္တိ	*စူဠဝဂ္ဂ-ဘာသာဋီကာ ၃၉၉
@@ -14288,8 +14288,8 @@
 သိလိဋ္ဌပဒသန္တိကံ	*အလင်္ကာ-ဘာသာဋီကာ၊ ၁ ၅၉
 သိလေသောပမာ	*အလင်္ကာ-ဘာသာဋီကာ ၁၉၅
 သိလောကမနုကဿာမိ	*သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၃ ၁၉၁
-သိ0xduH	*မဟာဝါ-ဘာသာဋီကာ၊ ၂ ၂၁၈
-သိ0xdu-တို့နှင့် စပ်၍ မှတ်ချက်	*သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၃ ၇၅၂
+သိဝထိကံ	*မဟာဝါ-ဘာသာဋီကာ၊ ၂ ၂၁၈
+သိဝထိက-တို့နှင့် စပ်၍ မှတ်ချက်	*သုတ်မဟာဝါ-ဘာသာဋီကာ၊ ၃ ၇၅၂
 သိဝဝိဇ္ဇာ	*သီလက္ခန်-ဘာသာဋီကာ၊ ၁ ၅၆၅
 သိဝေယျကံ	*မဟာဝါ-ဘာသာဋီကာ၊ ၂ ၂၁၈
 သိဝေယျကံ (ပုဒ်ပြီး)	*သီလက္ခန်-ဘာသာဋီကာ၊ ၂ ၂ဝ၅
@@ -14857,7 +14857,7 @@
 ဟသိတုပ္ပါဒ်စိတ် ဘုရားရှင်သန္တာန်၌ ဖြစ်-မဖြစ်	*အဋ္ဌသာလိနီ-ဘာသာဋီကာ၊ ၃ ၃၅၃
 ဟသိတုပ္ပါဒစိတ္တံ	*သင်္ဂြိုဟ်-ဘာသာဋီကာ ၅၆
 ဟဿကံ	*သီလက္ခန်-ဘာသာဋီကာ၊ ၄ ၃ဝ၁
-ဟဿခိဍ္0x045ာရတိဓမ္မ	*သီလက္ခန်-ဘာသာဋီကာ၊ ၂ ၉၄
+ဟဿခိဍ္ဍာရတိဓမ္မ	*သီလက္ခန်-ဘာသာဋီကာ၊ ၂ ၉၄
 ဟဿဘာဝံ = ဟာသဘာဝံ	*အလင်္ကာ-ဘာသာဋီကာ ၃၅
 ဟာနဘာဂိယော	*ရူပသိဒ္ဓိ-ဘာသာဋီကာ၊ ၂ ၁၄၂
 ဟာနိ	*ရူပသိဒ္ဓိ-ဘာသာဋီကာ၊ ၂ ၄၈၆။ *သီလက္ခန်-ဘာသာဋီကာ၊ ၄ ၁၃
